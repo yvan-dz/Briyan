@@ -917,6 +917,7 @@ footer p a:hover {
 @media (max-width: 576px) {
     body, html {
         overflow-x: hidden;
+        -webkit-overflow-scrolling: touch; /* Défilement fluide sur iOS */
     }
 
     /* Navbar adjustments */
