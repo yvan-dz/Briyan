@@ -879,6 +879,15 @@ footer p a:hover {
 }
 
 @media (max-width: 576px) {
+
+    #break {
+        display: block; /* Le span se comportera comme un élément de bloc */
+        margin-top: 0.5rem; /* Optionnel: Ajoute un espace entre les lignes */
+    }
+
+    #big{
+        font-size: 1.5rem;
+    }
    
     .about-section img {
         width: 50%;
